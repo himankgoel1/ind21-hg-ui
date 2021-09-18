@@ -51,6 +51,12 @@ body {
 .latest-blogs {
   background-color: indigo;
   grid-column: 2/-2;
+  display: flex;
+  flex-direction: column;
+}
+.latest-blogs__heading {
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar {
@@ -70,12 +76,11 @@ body {
   margin: 0.3rem;
 }
 .navbar__options {
-  grid-column-end: 8;
+  grid-column: 6/8;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .navbar__options--option {
-  margin-right: 2rem;
   margin-top: 1rem;
   font-size: 1.3rem;
 }

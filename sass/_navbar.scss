@@ -14,11 +14,10 @@
         }
     }
     &__options{
-        grid-column-end: 8;
+        grid-column: 6/8;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         &--option{
-            margin-right: 2rem;
             margin-top: 1rem;
             font-size: 1.3rem;
         }
