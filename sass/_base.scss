@@ -18,4 +18,10 @@ html{
 
 body{
     font-family: $font-primary;
+    line-height: 1.6;
+}
+.container{
+    display: grid;
+    grid-template-rows: 30vh repeat(4,min-content);
+    grid-template-columns: repeat(8,minmax(min-content,1fr));
 }
