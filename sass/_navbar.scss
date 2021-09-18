@@ -1,4 +1,26 @@
 .navbar{
-    background-color: red;
+    background-color: $color-grey;
     grid-column: 1/-1;
+    display: grid;
+    padding-top: 2rem;
+    grid-template-columns: repeat(8,minmax(min-content,1fr));
+    &__logo{
+        width: 1rem;
+        grid-column: 2/3;
+        display: flex;
+        &--img{
+            height: 3rem;
+            margin: .3rem;
+        }
+    }
+    &__options{
+        grid-column-end: 8;
+        display: flex;
+        justify-content: center;
+        &--option{
+            margin-right: 2rem;
+            margin-top: 1rem;
+            font-size: 1.3rem;
+        }
+    }
 }

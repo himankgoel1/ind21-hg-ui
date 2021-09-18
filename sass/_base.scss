@@ -1,5 +1,5 @@
 $color-redorange : #FF4C29;
-$color-grey : #C9CCD5;
+$color-grey : #EFEFEF;
 
 $font-primary : Arial, Helvetica, sans-serif;
 
@@ -10,7 +10,17 @@ $font-primary : Arial, Helvetica, sans-serif;
     padding: 0;
     box-sizing: inherit;
 }
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
 
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
 html{
     box-sizing: border-box;
     font-size: 62.5%;
