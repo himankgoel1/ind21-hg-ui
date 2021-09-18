@@ -34,13 +34,22 @@ body {
   grid-template-columns: repeat(8, minmax(min-content, 1fr));
 }
 
+.heading-1 {
+  font-size: 2.5rem;
+}
+
+.heading-2 {
+  font-size: 1.8rem;
+}
+
 .btn {
   height: 3.7rem;
-  width: 10rem;
+  min-width: 10rem;
   padding: 0.1rem 0.3rem;
   background-color: #FF4C29;
   border-width: 0;
   border-radius: 3px;
+  color: white;
 }
 
 .blog-posts {
@@ -49,14 +58,54 @@ body {
 }
 
 .latest-blogs {
-  background-color: indigo;
-  grid-column: 2/-2;
+  padding: 3rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 6px;
+  background-color: white;
+  margin-top: -5rem;
   display: flex;
+  grid-column: 2/-2;
+  position: relative;
+  z-index: 2;
   flex-direction: column;
 }
 .latest-blogs__heading {
   display: flex;
   justify-content: space-between;
+}
+.latest-blogs__tiles {
+  display: flex;
+  flex-direction: column;
+}
+.latest-blogs__tiles--tile {
+  margin-bottom: -2rem;
+  display: flex;
+}
+.latest-blogs__tiles--tile > * {
+  margin: 0.7rem;
+}
+.latest-blogs__tiles--tile-img {
+  height: 78%;
+}
+.latest-blogs__tiles--tile-content, .latest-blogs__tiles--tile-details {
+  height: 15rem;
+}
+.latest-blogs__tiles--tile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-basis: 50rem;
+}
+.latest-blogs__tiles--tile-content-btn {
+  align-self: end;
+}
+.latest-blogs__tiles--tile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.latest-blogs__cta {
+  align-self: center;
 }
 
 .navbar {

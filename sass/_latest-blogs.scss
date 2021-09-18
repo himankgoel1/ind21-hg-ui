@@ -1,4 +1,54 @@
 .latest-blogs{
-    background-color: indigo;
+    padding:3rem;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 6px;
+    background-color: white;
+    margin-top: -5rem;
+    display: flex;
     grid-column: 2/-2;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+
+    &__heading{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__tiles{
+        display: flex;
+        flex-direction: column;
+        &--tile{
+            margin-bottom: -2rem;
+            display: flex;
+            & > *{
+                margin: .7rem;
+            }
+            &-img{
+                height: 78%;
+            }
+            &-content,&-details{
+                height: 15rem;
+            }
+            &-content{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                flex-basis: 50rem;
+                &-btn{
+                    align-self: end;
+                }
+            }
+
+            &-details{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+        }
+    }
+
+    &__cta{
+        align-self: center;
+    }
 }
