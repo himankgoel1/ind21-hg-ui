@@ -115,15 +115,6 @@ body {
   padding-top: 2rem;
   grid-template-columns: repeat(8, minmax(min-content, 1fr));
 }
-.navbar__logo {
-  width: 1rem;
-  grid-column: 2/3;
-  display: flex;
-}
-.navbar__logo--img {
-  height: 3rem;
-  margin: 0.3rem;
-}
 .navbar__options {
   grid-column: 6/8;
   display: flex;
@@ -134,9 +125,59 @@ body {
   font-size: 1.3rem;
 }
 
+.logo {
+  width: 1rem;
+  grid-column: 2/3;
+  display: flex;
+}
+.logo--img {
+  height: 3rem;
+  margin: 0.3rem;
+}
+
 .information {
-  background-color: indianred;
   grid-column: 2/-2;
+  display: flex;
+  margin: 5rem;
+  padding-bottom: 6rem;
+  border-bottom: #EFEFEF solid 1px;
+}
+.information__contact {
+  flex-basis: 30%;
+}
+.information__contact > * {
+  margin-bottom: 1.5rem;
+}
+.information__contact--socials > * {
+  margin-right: 2rem;
+}
+.information__pages {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  font-size: 1.2rem;
+  justify-content: space-around;
+}
+.information__pages--heading {
+  font-size: 1.6rem;
+}
+.information__recent {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+}
+.information__partners {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.information__partners > * {
+  margin: 0.4rem;
+  width: 65%;
+}
+
+.sm-width {
+  width: 40%;
 }
 
 .footer {
