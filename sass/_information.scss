@@ -2,8 +2,9 @@
     grid-column: 2 /-2;
     display: flex;
     margin: 5rem;
+    margin-bottom: 0;
     padding-bottom: 6rem;
-    border-bottom: $color-grey solid 1px;
+    border-bottom: $color-grey solid 1.3px;
     &__contact{
         & > *{
             margin-bottom: 1.5rem;
