@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -85,9 +89,46 @@
         </button>
         
     </section>
-    <section class="blog-posts">
-        Blog Posts
-    </section>
+        <div class="swiper mySwiper blog-posts">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide blog-posts__slider">
+                    <span class="blog-posts__slider-author">Mr Mehedi Hasan</span>
+                    <span class="blog-posts__slider-date">Sep 11,2020</span>
+                    <span class="blog-posts__slider-radio">Cantonese Radio</span>
+                    <h2 class="blog-posts__slider-heading">
+                      Global News Podcast Thai soldier kills many people a shooting rampage
+                    </h2>
+                    <p class="blog-posts__slider-desc">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam dolore
+                      maxime molestias inventore voluptates nulla aliquid quisquam, dignissimos
+                      similique sequi dolores molestiae adipisci provid
+                    </p>
+                    <button class="blog-posts__slider-btn">Read More</button>
+                  </div>
+                  <div class="swiper-slide blog-posts__slider">
+                    <span class="blog-posts__slider-author">Mr Mehedi Hasan</span>
+                    <span class="blog-posts__slider-date">Sep 11,2020</span>
+                    <span class="blog-posts__slider-radio">Cantonese Radio</span>
+                    <h2 class="blog-posts__slider-heading">
+                      Global News Podcast Thai soldier kills many people a shooting rampage
+                    </h2>
+                    <p class="blog-posts__slider-desc">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam dolore
+                      maxime molestias inventore voluptates nulla aliquid quisquam, dignissimos
+                      similique sequi dolores molestiae adipisci provid
+                    </p>
+                    <button class="blog-posts__slider-btn">Read More</button>
+                  </div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="blog-posts__btns">
+                <img class="blog-posts__btns--prev" src="assets/images/arrow-left.png" alt="">
+                <img class="blog-posts__btns--next" src="assets/images/arrow-right.png" alt="">
+            </div>
+        </div>
 
     <section class="information">
         <div class="information__contact">
@@ -130,5 +171,7 @@
     <footer class="footer">
         @2020 Josh Technology Group
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
