@@ -1,15 +1,12 @@
 var swiper = new Swiper(".mySwiper", {
+  // spaceBetween: ,
   slidesPerView: 3,
-  spaceBetween: 30,
-  keyboard: {
-    enabled: true
-  },
   pagination: {
     el: ".swiper-pagination",
-    clickable: true
+    clickable: true,
   },
   navigation: {
-    nextEl: ".blog-posts__btns--next",
-    prevEl: ".blog-posts__btns--prev"
-  }
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });

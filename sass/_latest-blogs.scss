@@ -1,9 +1,9 @@
 .latest-blogs{
     padding:3rem;
+    margin: -5rem 5rem 0;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     border-radius: 6px;
     background-color: white;
-    margin-top: -5rem;
     display: flex;
     grid-column: 2/-2;
     position: relative;
@@ -13,6 +13,8 @@
     &__heading{
         display: flex;
         justify-content: space-between;
+        margin-top: 2rem;
+        margin-left: 3rem;
     }
 
     &__tiles{
@@ -26,24 +28,33 @@
             }
             &-img{
                 height: 78%;
-            }
-            &-content,&-details{
-                height: 15rem;
+                margin-left: 4rem;
             }
             &-content{
                 display: flex;
                 flex-direction: column;
-                justify-content: space-evenly;
-                flex-basis: 50rem;
+                flex-basis: 42rem;
+                &-heading{
+                    margin-top: 2rem;
+                }
+                &-desc{
+                    font-size: 1.2rem;
+                    color: $color-grey;
+                }
                 &-btn{
                     align-self: end;
                 }
             }
 
             &-details{
+                height: 15rem;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-evenly;
+                justify-content:  flex-end;
+                color: $color-grey;
+            }
+            &-detail{
+                margin: 1rem;
             }
         }
     }

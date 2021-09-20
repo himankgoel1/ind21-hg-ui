@@ -1,177 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper/swiper-bundle.min.css"
-  />
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body class="container">
+  </head>
+  <body class="container">
     <section class="navbar">
-        <div class="logo">
-            <img class="logo--img" src="assets/images/Path 9408@2x.png" alt="logo-img">
-            <img class="logo--img" src="assets/images/JTGPOD@2x.png" alt="JTGPod">
-        </div>
-        <div class="navbar__options">
-            <a href="#" class="navbar__options--option">Home</a>
-            <a href="#" class="navbar__options--option">About</a>
-            <a href="#" class="navbar__options--option">Blog</a>
-            <a href="#" class="navbar__options--option">Pages</a>
-            <a href="#" class="navbar__options--option">Contact</a>
-            <button class="btn">Subscribe</button>
-        </div>
+      <div class="logo">
+        <img
+          class="logo--img"
+          src="assets/images/Path 9408@2x.png"
+          alt="logo-img"
+        />
+        <img class="logo--img" src="assets/images/JTGPOD@2x.png" alt="JTGPod" />
+      </div>
+      <div class="navbar__options">
+        <a href="#" class="navbar__options--option">Home</a>
+        <a href="#" class="navbar__options--option">About</a>
+        <a href="#" class="navbar__options--option">Blog</a>
+        <a href="#" class="navbar__options--option">Pages</a>
+        <a href="#" class="navbar__options--option">Contact</a>
+        <button class="btn sm-margin-left">Subscribe</button>
+      </div>
     </section>
     <section class="latest-blogs">
-        <div class="latest-blogs__heading">
-            <h1 class="heading-1 ">Latest Blogs</h1>
-            <button class="btn">View All</button>
-        </div>
-        <div class="latest-blogs__tiles">
-            <div class="latest-blogs__tiles--tile">
-                <img class="latest-blogs__tiles--tile-img" src="assets/images/2123.png" alt="img">
-                <div class="latest-blogs__tiles--tile-content">
-                    <h2 class="heading-2 latest-blogs__tiles--tile-content-heading">
-                        Visiting my best friend's for the first time.
-                    </h2>
-                    <p class="latest-blogs__tiles--tile-content-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veniam itaque amet cumque, dolorem modi minus fae.
-                    </p>
-                    <button class="btn latest-blogs__tiles--tile-content-btn">View</button>
-                </div>
-                <div class="latest-blogs__tiles--tile-details">
-                   <span class="latest-blogs__tiles--tile-detail"># Season 1</span>
-                   <span class="latest-blogs__tiles--tile-detail"># Posted on Sep 3,2020</span>
-                   <span class="latest-blogs__tiles--tile-detail"># audio / goodbyes / life</span>
-                </div>
-            </div>
-            <div class="latest-blogs__tiles--tile">
-                <img class="latest-blogs__tiles--tile-img" src="assets/images/hello-revival-YH_Ne4R9ZAc-unsplash.png" alt="img">
-                <div class="latest-blogs__tiles--tile-content">
-                    <h2 class="heading-2 latest-blogs__tiles--tile-content-heading">
-                        An interesting read I definitely recommend
-                    </h2>
-                    <p class="latest-blogs__tiles--tile-content-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veniam itaque amet cumque, dolorem modi minus fae.
-                    </p>
-                    <button class="btn latest-blogs__tiles--tile-content-btn">View</button>
-                </div>
-                <div class="latest-blogs__tiles--tile-details">
-                   <span class="latest-blogs__tiles--tile-detail"># Season 1</span>
-                   <span class="latest-blogs__tiles--tile-detail"># Posted on Sep 3,2020</span>
-                   <span class="latest-blogs__tiles--tile-detail"># goodbyes / life</span>
-                </div>
-            </div>
-            <div class="latest-blogs__tiles--tile">
-                <img class="latest-blogs__tiles--tile-img" src="assets/images/alexander-tsang-_frvdyMH6S0-unsplash.png" alt="img">
-                <div class="latest-blogs__tiles--tile-content">
-                    <h2 class="heading-2 latest-blogs__tiles--tile-content-heading">
-                        What if all my adventures go back home?
-                    </h2>
-                    <p class="latest-blogs__tiles--tile-content-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veniam itaque amet cumque, dolorem modi minus fae.
-                    </p>
-                    <button class="btn latest-blogs__tiles--tile-content-btn">View</button>
-                </div>
-                <div class="latest-blogs__tiles--tile-details">
-                   <span class="latest-blogs__tiles--tile-detail"># Season 1</span>
-                   <span class="latest-blogs__tiles--tile-detail"># Posted on Sep 3,2020</span>
-                   <span class="latest-blogs__tiles--tile-detail"># audio / goodbyes</span>
-                </div>
-            </div>
-        </div>
-        <button class="btn latest-blogs__cta">
-            Show More Episode
-        </button>
-        
-    </section>
-        <div class="swiper mySwiper blog-posts">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide blog-posts__slider">
-                    <span class="blog-posts__slider-author">Mr Mehedi Hasan</span>
-                    <span class="blog-posts__slider-date">Sep 11,2020</span>
-                    <span class="blog-posts__slider-radio">Cantonese Radio</span>
-                    <h2 class="blog-posts__slider-heading">
-                      Global News Podcast Thai soldier kills many people a shooting rampage
-                    </h2>
-                    <p class="blog-posts__slider-desc">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam dolore
-                      maxime molestias inventore voluptates nulla aliquid quisquam, dignissimos
-                      similique sequi dolores molestiae adipisci provid
-                    </p>
-                    <button class="blog-posts__slider-btn">Read More</button>
-                  </div>
-                  <div class="swiper-slide blog-posts__slider">
-                    <span class="blog-posts__slider-author">Mr Mehedi Hasan</span>
-                    <span class="blog-posts__slider-date">Sep 11,2020</span>
-                    <span class="blog-posts__slider-radio">Cantonese Radio</span>
-                    <h2 class="blog-posts__slider-heading">
-                      Global News Podcast Thai soldier kills many people a shooting rampage
-                    </h2>
-                    <p class="blog-posts__slider-desc">
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam dolore
-                      maxime molestias inventore voluptates nulla aliquid quisquam, dignissimos
-                      similique sequi dolores molestiae adipisci provid
-                    </p>
-                    <button class="blog-posts__slider-btn">Read More</button>
-                  </div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="blog-posts__btns">
-                <img class="blog-posts__btns--prev" src="assets/images/arrow-left.png" alt="">
-                <img class="blog-posts__btns--next" src="assets/images/arrow-right.png" alt="">
-            </div>
-        </div>
-
-    <section class="information">
-        <div class="information__contact">
-            <div class="logo">
-                <img class="logo--img" src="assets/images/Path 9408@2x.png" alt="logo-img">
-                <img class="logo--img" src="assets/images/JTGPOD@2x.png" alt="JTGPod">
-            </div>
-            <p class="information__contact--info">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis enim corporis explicabo odio quae.
+      <div class="latest-blogs__heading">
+        <h1 class="heading-1">Latest Blogs</h1>
+        <button class="btn sm-margin-right">View All</button>
+      </div>
+      <div class="latest-blogs__tiles">
+        <div class="latest-blogs__tiles--tile">
+          <img
+            class="latest-blogs__tiles--tile-img"
+            src="assets/images/2123.png"
+            alt="img"
+          />
+          <div class="latest-blogs__tiles--tile-content">
+            <h2 class="heading-2 latest-blogs__tiles--tile-content-heading">
+              Visiting my best friend's for the first time.
+            </h2>
+            <p class="latest-blogs__tiles--tile-content-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              veniam itaque amet cumque, dolorem modi minus fae.
             </p>
-            <div class="information__contact--heading">Socials</div>
-            <div class="information__contact--socials">
-                <img src="assets/images/facebook.png" alt="facebook-contact">
-                <img src="assets/images/linkedin.png" alt="facebook-contact">
-                <img src="assets/images/instagram.png" alt="facebook-contact">
-            </div>
+            <button class="btn latest-blogs__tiles--tile-content-btn">
+              View
+            </button>
+          </div>
+          <div class="latest-blogs__tiles--tile-details">
+            <span class="latest-blogs__tiles--tile-detail"># Season 1</span>
+            <span class="latest-blogs__tiles--tile-detail"
+              ># Posted on Sep 3,2020</span
+            >
+            <span class="latest-blogs__tiles--tile-detail"
+              ># audio / goodbyes / life</span
+            >
+          </div>
         </div>
-        <div class="information__pages">
-            <span class="information__pages--heading">Pages</span>
-            <span>About</span>
-            <span>Episode</span>
-            <span>Blog</span>
-            <span>Contact</span>
+        <div class="latest-blogs__tiles--tile">
+          <img
+            class="latest-blogs__tiles--tile-img"
+            src="assets/images/hello-revival-YH_Ne4R9ZAc-unsplash.png"
+            alt="img"
+          />
+          <div class="latest-blogs__tiles--tile-content">
+            <h2 class="heading-2 latest-blogs__tiles--tile-content-heading">
+              An interesting read I definitely recommend
+            </h2>
+            <p class="latest-blogs__tiles--tile-content-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              veniam itaque amet cumque, dolorem modi minus fae.
+            </p>
+            <button class="btn latest-blogs__tiles--tile-content-btn">
+              View
+            </button>
+          </div>
+          <div class="latest-blogs__tiles--tile-details">
+            <span class="latest-blogs__tiles--tile-detail"># Season 1</span>
+            <span class="latest-blogs__tiles--tile-detail"
+              ># Posted on Sep 3,2020</span
+            >
+            <span class="latest-blogs__tiles--tile-detail"
+              ># goodbyes / life</span
+            >
+          </div>
         </div>
-        <div class="information__pages">
-            <span class="information__pages--heading">Recent Blogs</span>
-            <span>Blog 1</span>
-            <span>Blog 2</span>
-            <span>Blog 3</span>
-            <span>Blog 4</span>
+        <div class="latest-blogs__tiles--tile">
+          <img
+            class="latest-blogs__tiles--tile-img"
+            src="assets/images/alexander-tsang-_frvdyMH6S0-unsplash.png"
+            alt="img"
+          />
+          <div class="latest-blogs__tiles--tile-content">
+            <h2 class="heading-2 latest-blogs__tiles--tile-content-heading">
+              What if all my adventures go back home?
+            </h2>
+            <p class="latest-blogs__tiles--tile-content-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              veniam itaque amet cumque, dolorem modi minus fae.
+            </p>
+            <button class="btn latest-blogs__tiles--tile-content-btn">
+              View
+            </button>
+          </div>
+          <div class="latest-blogs__tiles--tile-details">
+            <span class="latest-blogs__tiles--tile-detail"># Season 1</span>
+            <span class="latest-blogs__tiles--tile-detail"
+              ># Posted on Sep 3,2020</span
+            >
+            <span class="latest-blogs__tiles--tile-detail"
+              ># audio / goodbyes</span
+            >
+          </div>
         </div>
-        <div class="information__partners">
-            <span class="information__pages--heading">Partners</span>
-            <img src="assets/images/google_podcast@2x.png" alt="google-podcast">
-            <img src="assets/images/apple_podcast@2x.png" alt="apple-podcast">
-            <img class="sm-width" src="assets/images/spotify@2x.png" alt="spotify">
-
-        </div>
+      </div>
+      <button class="btn latest-blogs__cta">Show More Episode</button>
     </section>
-    <footer class="footer">
-        @2020 Josh Technology Group
-    </footer>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <section class="blog-posts">
+      <h1 class="heading-1">Blog Posts</h1>
+      <!-- Slider main container -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="blog-posts__slider">
+              <span class="blog-posts__slider-author">By Mehedi Hasan</span>
+              <span class="blog-posts__slider-date">Sep 11,2020</span>
+              <span class="blog-posts__slider-radio">Cantonese Radio</span>
+              <h2 class="blog-posts__slider-heading heading-2">
+                Global News Podcast Thai soldier kills many people a shooting
+                rampage
+              </h2>
+              <p class="blog-posts__slider-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                ullam dolore maxime molestias inventore voluptates nulla aliquid
+                quisquam, dignissimos similique sequi dolores molestiae adipisci
+                provid
+              </p>
+              <button class="blog-posts__slider-btn">Read More</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts__slider">
+              <span class="blog-posts__slider-author">By Mehedi Hasan</span>
+              <span class="blog-posts__slider-date">Sep 11,2020</span>
+              <span class="blog-posts__slider-radio">Cantonese Radio</span>
+              <h2 class="blog-posts__slider-heading heading-2">
+                Global News Podcast Thai soldier kills many people a shooting
+                rampage
+              </h2>
+              <p class="blog-posts__slider-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                ullam dolore maxime molestias inventore voluptates nulla aliquid
+                quisquam, dignissimos similique sequi dolores molestiae adipisci
+                provid
+              </p>
+              <button class="blog-posts__slider-btn">Read More</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-posts__slider">
+              <span class="blog-posts__slider-author">By Mehedi Hasan</span>
+              <span class="blog-posts__slider-date">Sep 11,2020</span>
+              <span class="blog-posts__slider-radio">Cantonese Radio</span>
+              <h2 class="blog-posts__slider-heading heading-2">
+                Global News Podcast Thai soldier kills many people a shooting
+                rampage
+              </h2>
+              <p class="blog-posts__slider-desc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                ullam dolore maxime molestias inventore voluptates nulla aliquid
+                quisquam, dignissimos similique sequi dolores molestiae adipisci
+                provid
+              </p>
+              <button class="blog-posts__slider-btn">Read More</button>
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div>
+          <div class="swiper-button-next">Prev</div>
+          <div class="swiper-button-prev">Next</div>
+        </div>
+      </div>
+    </section>
+    <section class="information">
+      <div class="information__contact">
+        <div class="logo">
+          <img
+            class="logo--img"
+            src="assets/images/Path 9408@2x.png"
+            alt="logo-img"
+          />
+          <img
+            class="logo--img"
+            src="assets/images/JTGPOD@2x.png"
+            alt="JTGPod"
+          />
+        </div>
+        <p class="information__contact--info font-grey">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+          enim corporis explicabo odio quae.
+        </p>
+        <div class="information__contact--heading">Socials</div>
+        <div class="information__contact--socials">
+          <img src="assets/images/facebook.png" alt="facebook-contact" />
+          <img src="assets/images/linkedin.png" alt="facebook-contact" />
+          <img src="assets/images/instagram.png" alt="facebook-contact" />
+        </div>
+      </div>
+      <div class="information__pages">
+        <span class="information__pages--heading">Pages</span>
+        <span class="font-grey">About</span>
+        <span class="font-grey">Episode</span>
+        <span class="font-grey">Blog</span>
+        <span class="font-grey">Contact</span>
+      </div>
+      <div class="information__pages">
+        <span class="information__pages--heading">Recent Blogs</span>
+        <span class="font-grey">Blog 1</span>
+        <span class="font-grey">Blog 2</span>
+        <span class="font-grey">Blog 3</span>
+        <span class="font-grey">Blog 4</span>
+      </div>
+      <div class="information__partners">
+        <span class="information__pages--heading">Partners</span>
+        <img src="assets/images/google_podcast@2x.png" alt="google-podcast" />
+        <img src="assets/images/apple_podcast@2x.png" alt="apple-podcast" />
+        <img
+          class="sm-width flex-start sm-margin-left"
+          src="assets/images/spotify@2x.png"
+          alt="spotify"
+        />
+      </div>
+    </section>
+    <footer class="footer">@2020 Josh Technology Group</footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="scripts/script.js"></script>
-</body>
+  </body>
 </html>
+
+<!-- <div class=" blog-posts__slider">
+  <span class="blog-posts__slider-author">Mr Mehedi Hasan</span>
+  <span class="blog-posts__slider-date">Sep 11,2020</span>
+  <span class="blog-posts__slider-radio">Cantonese Radio</span>
+  <h2 class="blog-posts__slider-heading">
+    Global News Podcast Thai soldier kills many people a shooting rampage
+  </h2>
+  <p class="blog-posts__slider-desc">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi ullam dolore
+    maxime molestias inventore voluptates nulla aliquid quisquam, dignissimos
+    similique sequi dolores molestiae adipisci provid
+  </p>
+  <button class="blog-posts__slider-btn">Read More</button>
+</div> -->
