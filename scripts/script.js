@@ -6,7 +6,7 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".blog-posts__navs--next",
+    prevEl: ".blog-posts__navs--prev",
   },
 });

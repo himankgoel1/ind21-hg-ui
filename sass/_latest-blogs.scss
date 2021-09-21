@@ -42,7 +42,16 @@
                     color: $color-grey;
                 }
                 &-btn{
-                    align-self: end;
+                    align-self: end; 
+                }
+                &::after{
+                    content: "";
+                    width: 1.5px;
+                    position: absolute;
+                    background-color: lighten($color-grey,20%);
+                    height: 13%;
+                    right: 21.9rem;
+                    margin-top: 5rem;
                 }
             }
 

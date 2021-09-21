@@ -1,12 +1,38 @@
-.sm-margin-left{
-    margin-left: 2rem;
+.sm-margin-left {
+  margin-left: 2rem;
 }
-.sm-margin-right{
-    margin-right: 2rem;
+.sm-margin-right {
+  margin-right: 2rem;
 }
-.font-grey{
-    color: $color-grey;
+.font-grey {
+  color: $color-grey;
 }
-.flex-start{
-    align-self: center;
+.flex-start {
+  align-self: center;
+}
+.font-med {
+  font-size: 1.4rem;
+}
+.border {
+  border: $color-redorange solid 1px;
+  padding: 1rem;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.4rem 1rem;
+}
+.active {
+  &:visited,
+  &:link {
+    &::after{
+        content: "";
+        background-color: $color-redorange;
+        position: absolute;
+        width: 3.5rem;
+        height: 1px;
+        top: 5rem;
+        right: 57.1rem;
+    }
+  }
 }

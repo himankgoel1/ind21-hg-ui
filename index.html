@@ -22,18 +22,18 @@
         <img class="logo--img" src="assets/images/JTGPOD@2x.png" alt="JTGPod" />
       </div>
       <div class="navbar__options">
-        <a href="#" class="navbar__options--option">Home</a>
+        <a href="#" class="navbar__options--option active">Home</a>
         <a href="#" class="navbar__options--option">About</a>
         <a href="#" class="navbar__options--option">Blog</a>
         <a href="#" class="navbar__options--option">Pages</a>
         <a href="#" class="navbar__options--option">Contact</a>
-        <button class="btn sm-margin-left">Subscribe</button>
+        <button class="btn sm-margin-left btn-filled">Subscribe</button>
       </div>
     </section>
     <section class="latest-blogs">
       <div class="latest-blogs__heading">
         <h1 class="heading-1">Latest Blogs</h1>
-        <button class="btn sm-margin-right">View All</button>
+        <button class="btn sm-margin-right btn-filled">View All</button>
       </div>
       <div class="latest-blogs__tiles">
         <div class="latest-blogs__tiles--tile">
@@ -50,7 +50,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
               veniam itaque amet cumque, dolorem modi minus fae.
             </p>
-            <button class="btn latest-blogs__tiles--tile-content-btn">
+            <button class="btn btn-filled latest-blogs__tiles--tile-content-btn">
               View
             </button>
           </div>
@@ -78,7 +78,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
               veniam itaque amet cumque, dolorem modi minus fae.
             </p>
-            <button class="btn latest-blogs__tiles--tile-content-btn">
+            <button class="btn btn-filled latest-blogs__tiles--tile-content-btn">
               View
             </button>
           </div>
@@ -106,7 +106,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
               veniam itaque amet cumque, dolorem modi minus fae.
             </p>
-            <button class="btn latest-blogs__tiles--tile-content-btn">
+            <button class="btn btn-filled latest-blogs__tiles--tile-content-btn">
               View
             </button>
           </div>
@@ -121,12 +121,11 @@
           </div>
         </div>
       </div>
-      <button class="btn latest-blogs__cta">Show More Episode</button>
+      <button class="btn btn-transparent latest-blogs__cta">Show More Episode</button>
     </section>
 
     <section class="blog-posts">
       <h1 class="heading-1">Blog Posts</h1>
-      <!-- Slider main container -->
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
@@ -144,7 +143,7 @@
                 quisquam, dignissimos similique sequi dolores molestiae adipisci
                 provid
               </p>
-              <button class="blog-posts__slider-btn">Read More</button>
+              <button class="btn btn-transparent blog-posts__slider-btn">Read More</button>
             </div>
           </div>
           <div class="swiper-slide">
@@ -162,7 +161,7 @@
                 quisquam, dignissimos similique sequi dolores molestiae adipisci
                 provid
               </p>
-              <button class="blog-posts__slider-btn">Read More</button>
+              <button class="btn btn-transparent blog-posts__slider-btn">Read More</button>
             </div>
           </div>
           <div class="swiper-slide">
@@ -180,21 +179,21 @@
                 quisquam, dignissimos similique sequi dolores molestiae adipisci
                 provid
               </p>
-              <button class="blog-posts__slider-btn">Read More</button>
+              <button class="btn btn-transparent blog-posts__slider-btn">Read More</button>
             </div>
           </div>
           <div class="swiper-slide">Slide 2</div>
           <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
-          <div class="swiper-slide">Slide 9</div>
         </div>
         <div>
-          <div class="swiper-button-next">Prev</div>
-          <div class="swiper-button-prev">Next</div>
+        </div>
+      </div>
+      <div class="blog-posts__navs">
+        <div class="blog-posts__navs--prev">
+          <img src="assets/images/arrow-left.png" alt="">
+        </div>
+        <div class="blog-posts__navs--next">
+          <img src="assets/images/arrow-right.png" alt="">
         </div>
       </div>
     </section>
@@ -216,11 +215,17 @@
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
           enim corporis explicabo odio quae.
         </p>
-        <div class="information__contact--heading">Socials</div>
+        <div class="information__contact--heading font-med">Socials</div>
         <div class="information__contact--socials">
-          <img src="assets/images/facebook.png" alt="facebook-contact" />
-          <img src="assets/images/linkedin.png" alt="facebook-contact" />
-          <img src="assets/images/instagram.png" alt="facebook-contact" />
+          <div class="border">
+            <img src="assets/images/facebook.png" alt="facebook-contact" />
+          </div>
+          <div class="border">
+            <img src="assets/images/linkedin.png" alt="facebook-contact" />
+          </div>
+          <div class="border">
+            <img src="assets/images/instagram.png" alt="facebook-contact" />
+          </div>
         </div>
       </div>
       <div class="information__pages">
@@ -248,7 +253,7 @@
         />
       </div>
     </section>
-    <footer class="footer">@2020 Josh Technology Group</footer>
+    <footer class="footer font-grey">@2020 Josh Technology Group</footer>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="scripts/script.js"></script>
   </body>

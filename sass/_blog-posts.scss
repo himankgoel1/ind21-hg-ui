@@ -1,7 +1,7 @@
 .blog-posts{
     grid-column: 2/-2;
-    height: 45rem;
-    margin: 4rem 0;
+    height: 54rem;
+    margin: 4rem 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,11 +17,21 @@
         grid-template-columns: max-content 1fr;
         grid-template-rows: repeat(5,min-content);
         box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+        align-items: center;
+        &:after{
+            content: "";
+            width: 3.5px;
+            position: absolute;
+            background-color: $color-redorange;
+            height: 8%;
+            left: .9rem;
+            top: 7rem;
+        }
         &-author{
             grid-row: 1/2;
             grid-column: 1/2;
             color: $color-redorange;
-            font-size: 1.1rem;
+            font-size: 1.3rem;
         }
         &-heading{
             grid-row: 3/4;
@@ -43,6 +53,14 @@
         &-btn{
             grid-row: 5/6;
             margin: 1.5rem auto;
+        }
+    }
+    &__navs{
+        align-self: center;
+        display: flex;
+        padding: 1rem;
+        & > *{
+            margin: .4rem;
         }
     }
     &__btns{

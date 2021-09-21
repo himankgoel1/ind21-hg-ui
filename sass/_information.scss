@@ -1,17 +1,16 @@
 .information{
     grid-column: 2 /-2;
     display: flex;
-    margin: 5rem;
-    margin-bottom: 0;
+    margin: 0 5rem 0;
     padding: 9rem 5rem;
-    border-bottom: $color-grey solid 1.3px;
+    border-bottom: $color-grey solid 1px;
     &__contact{
         & > *{
             margin-bottom: 1.5rem;
         }
         flex-basis: 30%;
-        &--socials > *{
-            margin-right: 2rem;
+        &--socials{
+            display: flex;
         }
     }
     &__pages{
